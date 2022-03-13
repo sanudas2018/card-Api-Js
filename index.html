@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <title>Dog Project</title>
+</head>
+
+<body>
+   
+   <div class="container">
+      <h1 class="text-center text-success">Play with Cards API</h1>
+
+
+      <div class="input-group mb-3 mx-auto w-50">
+         <input id="search-field" type="text" class="form-control" placeholder="Search your Card" aria-label="Recipient's username"
+            aria-describedby="button-search">
+         <button onclick="searchButton()" class="btn btn-outline-secondary" type="button" id="button-search">search</button>
+      </div>
+
+
+      <!-- error handel message -->
+      <div id="error" class="alert alert-warning alert-dismissible fade show" role="alert">
+         <strong id="message">Holy guacamole!</strong>
+         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+       </div>
+      <!-- <h2  class="bg-danger text-info text-center p-3"></h2> -->
+       <!--END error handel message -->
+
+
+      <!-- all food show body  -->
+      <div class="all-food w-100 border border-warning p-4 bg-warning">
+         <div id="search-result" class="row row-cols-1 row-cols-md-4 g-4">
+
+            <!-- <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <button class="btn btn-primary w-50">Detail</button>
+                </div>
+              </div>
+            </div> -->
+            
+
+          </div>
+      </div>
+      <!-- end all food show body  -->
+
+      <!-- single food show body  -->
+      
+         <div id="single-card" class="row row-cols-1 row-cols-md-1 g-4 w-50 mx-auto">
+
+            <!-- <div class="col">
+              <div class="card">
+                <img  src="..." class="card-img-top img-thumbnail" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <button class="btn btn-primary w-50">Detail</button>
+                </div>
+              </div>
+            </div> -->
+            
+            
+          </div>
+      
+      <!-- end single food show body  -->
+
+
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+   </script>
+   <script src="./new.js"></script>
+</body>
+
+</html>
